@@ -8,3 +8,6 @@ This will generate the package.json file
                             STEP - 2
 INSTALL EXPRESS PACKAGE USING COMMAND - npm i express
 This will install express js into the folder
+
+STEP - 3
+INSTALL NODEMON USING COMMAND - npm i nodemon
