@@ -1,0 +1,6 @@
+This is the instraction file of how create REST API step by step
+
+                            STEP - 1
+                            
+INSTALL NPM PACKAGE USING COMMAND - npm init -y
+This will generate the package.json file
