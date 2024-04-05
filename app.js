@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const products_routes = require("./routes/products")
+const connectDB = require("./database/connect")
+
 
 const PORT = process.env.PORT || 3000;
 
@@ -13,6 +15,7 @@ app.use("/api/products",products_routes);
 
 const start = async()=>{
     try {
+        await connectDB();
         app.listen(PORT,()=>{
             console.log(`${PORT}, connected `);
         })
