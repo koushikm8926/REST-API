@@ -9,16 +9,16 @@
         "name":"Samsung",
         "price":20000,
         "fetature":true,
-        "company":"samsung"
+        "company":"microsoft"
     },
     {
         "name":"MI",
         "price":12000,
-        "company":"xiomi"
+        "company":"google"
     },
     {
         "name":"Oppo",
         "price":12000,
-        "company":"Oppo"
+        "company":"microsoft"
     }
 ]
